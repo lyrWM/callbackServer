@@ -1,0 +1,123 @@
+11:08:30 [info]: 'HTTPS server listening on port : 9595'
+11:12:26 [info]: 'hello SSL server'
+11:15:02 [info]: 'HTTPS server listening on port : 9595'
+11:19:17 [info]: 'HTTPS server listening on port : 9595'
+11:20:21 [info]: 'hello SSL server'
+11:21:57 [info]: 'HTTPS server listening on port : 9595'
+11:22:01 [info]: 'hello SSL server'
+11:22:42 [info]: 'HTTPS server listening on port : 9595'
+11:30:57 [info]: 'HTTPS server listening on port : 9595'
+11:30:57 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+11:30:57 [error]: "DB Connected failed SequelizeConnectionError: Unknown database 'ifdb'"
+11:44:36 [info]: 'HTTPS server listening on port : 9595'
+11:44:36 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+11:54:21 [info]: 'HTTPS server listening on port : 9595'
+11:54:21 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+11:54:21 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+12:07:08 [info]: 'HTTPS server listening on port : 9595'
+12:07:08 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+12:07:08 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+12:12:43 [info]: 'HTTPS server listening on port : 9595'
+12:12:43 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+12:12:43 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:12:07 [info]: 'HTTPS server listening on port : 9595'
+13:12:07 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:12:07 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:14:21 [info]: 'HTTPS server listening on port : 9595'
+13:14:21 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:14:21 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:14:23 [info]: '들어왔다!!!!!!'
+13:14:23 [info]: 'e_mail: dldulfla27@wemade.com'
+13:14:23 [info]: 'password: 1234'
+13:14:23 [info]: Promise { <pending> }
+13:14:23 [error]: 'validatePassword is not defined'
+13:15:58 [info]: 'HTTPS server listening on port : 9595'
+13:15:58 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:15:58 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:17:48 [info]: 'HTTPS server listening on port : 9595'
+13:17:48 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:17:48 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:17:50 [info]: '들어왔다!!!!!!'
+13:17:50 [info]: 'e_mail: dldulfla27@wemade.com'
+13:17:50 [info]: 'password: 1234'
+13:17:50 [info]: Promise { <pending> }
+13:17:50 [error]: 'validatePassword is not defined'
+13:20:34 [info]: 'HTTPS server listening on port : 9595'
+13:20:34 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:20:34 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:20:38 [info]: '들어왔다!!!!!!'
+13:23:49 [info]: 'HTTPS server listening on port : 9595'
+13:23:50 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:23:50 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:23:54 [info]: '들어왔다!!!!!!'
+13:23:54 [info]: 'e_mail: dldulfla27@wemade.com'
+13:23:54 [info]: 'password: 1234'
+13:23:54 [info]: {
+13:23:54 [info]:   userId: 'dldulfla27@wemade.com',
+13:23:54 [info]:   password: 'GyYjSJykii5gsbl+kYo79Gm6R4TNg8S1yL8OQKLeI/RL6MaifP3fd3DuGENl2u+sS9gNvgQ5Kx4PrVjZa01yHg==',
+13:23:54 [info]:   salt: 'PZnAgiaP3SwOPx8Md1148PGufm30xhkMe3zFUW+PPsw5c11cBgysgSVHpmW7rVLZoJRUgIE6qbLRvSuPjRow6A==',
+13:23:54 [info]:   userName: '이예림2',
+13:23:54 [info]:   useYN: 'Y'
+13:23:54 [info]: }
+13:23:54 [error]: 'result is not defined'
+13:25:27 [info]: 'HTTPS server listening on port : 9595'
+13:25:27 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:25:27 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:25:29 [info]: '들어왔다!!!!!!'
+13:25:29 [info]: 'e_mail: dldulfla27@wemade.com'
+13:25:29 [info]: 'password: 1234'
+13:25:29 [info]: {
+13:25:29 [info]:   userId: 'dldulfla27@wemade.com',
+13:25:29 [info]:   password: 'GyYjSJykii5gsbl+kYo79Gm6R4TNg8S1yL8OQKLeI/RL6MaifP3fd3DuGENl2u+sS9gNvgQ5Kx4PrVjZa01yHg==',
+13:25:29 [info]:   salt: 'PZnAgiaP3SwOPx8Md1148PGufm30xhkMe3zFUW+PPsw5c11cBgysgSVHpmW7rVLZoJRUgIE6qbLRvSuPjRow6A==',
+13:25:29 [info]:   userName: '이예림2',
+13:25:29 [info]:   useYN: 'Y'
+13:25:29 [info]: }
+13:34:06 [info]: 'HTTPS server listening on port : 9595'
+13:34:06 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:34:06 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:34:11 [info]: 'e_mail: dldulfla27@wemade.com'
+13:34:11 [info]: 'password: 1234'
+13:34:11 [info]: {
+13:34:11 [info]:   userId: 'dldulfla27@wemade.com',
+13:34:11 [info]:   password: 'GyYjSJykii5gsbl+kYo79Gm6R4TNg8S1yL8OQKLeI/RL6MaifP3fd3DuGENl2u+sS9gNvgQ5Kx4PrVjZa01yHg==',
+13:34:11 [info]:   salt: 'PZnAgiaP3SwOPx8Md1148PGufm30xhkMe3zFUW+PPsw5c11cBgysgSVHpmW7rVLZoJRUgIE6qbLRvSuPjRow6A==',
+13:34:11 [info]:   userName: '이예림2',
+13:34:11 [info]:   useYN: 'Y'
+13:34:11 [info]: }
+13:35:18 [info]: 'HTTPS server listening on port : 9595'
+13:35:19 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:35:19 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:35:21 [info]: 'e_mail: dldulfla27@wemade.com'
+13:35:21 [info]: 'password: 1234'
+13:35:21 [info]: {
+13:35:21 [info]:   userId: 'dldulfla27@wemade.com',
+13:35:21 [info]:   password: 'GyYjSJykii5gsbl+kYo79Gm6R4TNg8S1yL8OQKLeI/RL6MaifP3fd3DuGENl2u+sS9gNvgQ5Kx4PrVjZa01yHg==',
+13:35:21 [info]:   salt: 'PZnAgiaP3SwOPx8Md1148PGufm30xhkMe3zFUW+PPsw5c11cBgysgSVHpmW7rVLZoJRUgIE6qbLRvSuPjRow6A==',
+13:35:21 [info]:   userName: '이예림2',
+13:35:21 [info]:   useYN: 'Y'
+13:35:21 [info]: }
+13:45:46 [info]: 'HTTPS server listening on port : 9595'
+13:45:48 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+13:45:48 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+13:45:50 [info]: 'e_mail: dldulfla27@wemade.com'
+13:45:50 [info]: 'password: 1234'
+13:45:50 [info]: {
+13:45:50 [info]:   userId: 'dldulfla27@wemade.com',
+13:45:50 [info]:   password: 'GyYjSJykii5gsbl+kYo79Gm6R4TNg8S1yL8OQKLeI/RL6MaifP3fd3DuGENl2u+sS9gNvgQ5Kx4PrVjZa01yHg==',
+13:45:50 [info]:   salt: 'PZnAgiaP3SwOPx8Md1148PGufm30xhkMe3zFUW+PPsw5c11cBgysgSVHpmW7rVLZoJRUgIE6qbLRvSuPjRow6A==',
+13:45:50 [info]:   userName: '이예림2',
+13:45:50 [info]:   useYN: 'Y'
+13:45:50 [info]: }
+14:30:21 [info]: 'HTTPS server listening on port : 9595'
+14:30:21 [info]: 'DB(IFDB) Connected http://172.20.8.142:3306'
+14:30:21 [info]: 'DB(fireblocksDB) Connected http://172.20.8.142:3306'
+14:32:01 [info]: 'e_mail: dldulfla27@wemade.com'
+14:32:01 [info]: 'password: 1234'
+14:32:01 [info]: {
+14:32:01 [info]:   userId: 'dldulfla27@wemade.com',
+14:32:01 [info]:   password: 'GyYjSJykii5gsbl+kYo79Gm6R4TNg8S1yL8OQKLeI/RL6MaifP3fd3DuGENl2u+sS9gNvgQ5Kx4PrVjZa01yHg==',
+14:32:01 [info]:   salt: 'PZnAgiaP3SwOPx8Md1148PGufm30xhkMe3zFUW+PPsw5c11cBgysgSVHpmW7rVLZoJRUgIE6qbLRvSuPjRow6A==',
+14:32:01 [info]:   userName: '이예림2',
+14:32:01 [info]:   useYN: 'Y'
+14:32:01 [info]: }

@@ -1,0 +1,4 @@
+11:30:57 [error]: "DB Connected failed SequelizeConnectionError: Unknown database 'ifdb'"
+13:14:23 [error]: 'validatePassword is not defined'
+13:17:50 [error]: 'validatePassword is not defined'
+13:23:54 [error]: 'result is not defined'

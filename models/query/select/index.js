@@ -1,4 +1,4 @@
-const { fireblocksDB, ifDB } = require("../../");
+const { fireblocksDB, IFDB } = require("../../");
 
 const selectFireblocksApiUser = async (user_id) => {
   return new Promise(async (resolve, reject) => {
@@ -18,4 +18,22 @@ const selectFireblocksApiUser = async (user_id) => {
   });
 };
 
-module.exports = { selectFireblocksApiUser };
+const selectLoginUserInfo = async (wemadeEmail) => {
+  return new Promise(async (resolve, reject) => {
+    try {
+      const [result, metadata] = await fireblocksDB.query(
+        `SELECT * FROM userInfo WHERE userId='${wemadeEmail}'`
+      );
+      if (result[0] == undefined) return reject(new Error("Not Found"));
+
+      const user = result[0];
+      if (!user) return reject(new Error("Not Registered"));
+
+      resolve(user);
+    } catch (error) {
+      return reject(error);
+    }
+  })
+}
+
+module.exports = { selectFireblocksApiUser, selectLoginUserInfo };

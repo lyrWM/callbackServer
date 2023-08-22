@@ -1,9 +1,8 @@
 const router = require("express").Router();
 
-const User = require("../../../models/fireblocksDB/userInfo");
-const APIUser = require("../../../models/fireblocksDB/apiUserInfo");
-
 const { logger } = require("../../../utils/winston");
+const { selectLoginUserInfo } = require("../../../models/query/select");
+const { validatePassword } = require("../../../utils/createHash");
 
 router.post("/signin", async (req, res) => {
     try {
@@ -11,16 +10,11 @@ router.post("/signin", async (req, res) => {
         logger.info("e_mail: " + e_mail);
         logger.info("password: " + password);
 
-        const findUser = await User.findOne({
-            where: { user_id: e_mail },
-            attributes: ["user_id", "password", "salt"],
-        });
+        const findUser = await selectLoginUserInfo(e_mail);
 
-        if (!findUser) {
-            res.status(404).send({ message: "Not Registered" });
-        } else if (findUser) {
-            const result = await validatePassword(password, findUser.salt);
-        }
+        logger.info(findUser);
+
+        const result = await validatePassword(password, findUser.salt);
 
         if (result === findUser.password) {
             res.status(200).send({ message: "success" });

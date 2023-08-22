@@ -4,8 +4,8 @@ const fs = require("fs");
 const path = require("path");
 const { logger } = require("../../../utils/winston");
 
-const privateKey = fs.readFileSync(path.resolve(__dirname, "../../../keys/private.pem"));
-const cosignerPubKey = fs.readFileSync(path.resolve(__dirname, "../../../keys/public.pem"));
+// const privateKey = fs.readFileSync(path.resolve(__dirname, "../../../keys/private.pem"));
+// const cosignerPubKey = fs.readFileSync(path.resolve(__dirname, "../../../keys/public.pem"));
 
 router.post("/:id/v2/config_change_sign_request", async (req, res) => {
     logger.info("id : " + req.params.id);
